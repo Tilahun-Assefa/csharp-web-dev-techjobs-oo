@@ -14,7 +14,7 @@ namespace TechJobsTests
         public void CreateJobObject()
         {
             test_job = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-            semiFilledJob = new Job("Product tester", null, new Location("Desert"), null, new CoreCompetency("Persistence"));
+            semiFilledJob = new Job("Product tester", new Employer(), new Location("Desert"), new PositionType(), new CoreCompetency("Persistence"));
             emptyFieldJob = new Job();
         }
 

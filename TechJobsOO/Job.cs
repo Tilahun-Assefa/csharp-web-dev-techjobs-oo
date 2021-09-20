@@ -37,10 +37,10 @@ namespace TechJobsOO
             {
                 return "\nID: " + Id +
                     "\nName: " + (Name != null ? Name : "Data not available") +
-                    "\nEmployer: " + (EmployerName != null ? EmployerName.Value : "Data not available") +
-                   "\nLocation: " + (EmployerLocation != null ? EmployerLocation.Value : "Data not available") +
-                   "\nPosition Type: " + (JobType != null ? JobType.Value : "Data not available") +
-                   "\nCore Competency: " + (JobCoreCompetency != null ? JobCoreCompetency.Value : "Data not available") + "\n";
+                    "\nEmployer: " + (EmployerName.Value != null ? EmployerName.Value : "Data not available") +
+                   "\nLocation: " + (EmployerLocation.Value != null ? EmployerLocation.Value : "Data not available") +
+                   "\nPosition Type: " + (JobType.Value != null ? JobType.Value : "Data not available") +
+                   "\nCore Competency: " + (JobCoreCompetency.Value != null ? JobCoreCompetency.Value : "Data not available") + "\n";
             }            
         }
 
